@@ -2,8 +2,18 @@
 <html>
 <head>
 	<title>张义策的笔记</title>
+	<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
 	notebook
+<script type="text/javascript">
+	$.ajax({
+		url: 'blogs/缘起.md',
+		type: 'GET',
+		success: function(data){
+			alert(data);
+		}
+	});
+</script>
 </body>
 </html>
